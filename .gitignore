@@ -1,18 +1,3 @@
---[[
-    KaliUI Library
-    A modern, sleek UI library for Roblox exploits
-    
-    Features:
-    - Clean, modern design with dark theme and purple accents
-    - Tabs and sections for organized content
-    - Various UI elements (buttons, toggles, sliders, etc.)
-    - Minimize button that creates a floating button for mobile users
-    - Smooth animations and transitions
-    - Notifications system
-    
-    Created for Kali Hub
-]]
-
 local KaliUI = {}
 KaliUI.__index = KaliUI
 
@@ -688,7 +673,6 @@ function KaliUI:Tab(name, icon)
             updateSectionSize()
             
             return  ButtonContainer)
-            updateSectionSize()
             
             return ButtonContainer
         end
