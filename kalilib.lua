@@ -672,10 +672,8 @@ function KaliUI:Tab(name, icon)
             table.insert(self.Elements, ButtonContainer)
             updateSectionSize()
             
-            return  ButtonContainer)
-            
             return ButtonContainer
-        end
+            end 
         
         -- Toggle function
         function section:Toggle(text, default, callback)
